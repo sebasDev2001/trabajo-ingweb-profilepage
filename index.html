@@ -28,6 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
@@ -39,6 +40,7 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
+                        <img src="assets/img/me.jpg" alt="..." id="profilepic">
                         <h1 class="display-1 mx-auto my-0 text-uppercase ">Sebastian Sierra</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">Desarrollador, Ingeniero, Estudiante.</h2>
                         <a class="btn btn-primary" href="#about">Conoceme!</a>
@@ -56,15 +58,48 @@
                             Estudiante universitario de Ingenieria de Sistemas y Computacion 8vo semestre.  21 años, Colombiano, fanatico de los videojuegos,
                             la ciencia, los aviones y los autos.
                         </p>
+                        <p class="text-white-50">
+                            Intereses en AI, resolver problemas que ayuden a los demas, aprender nuevas abilidades y conocer nuevas personas.
+                        </p>
                     </div>
                 </div>
                 <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
             </div>
         </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Mas informacion</h2>
+                </div> 
+                <div class="row">
+                    <div class="col-lg-8 pt-4 pt-lg-0 content">
+                        <div class="row-4">
+                            <div class="col-lg-6">
+                              <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>25 Feb 2001</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://github.com/sebasDev2001/</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+57 305 420 0341</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Envigado, Colombia</span></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6">
+                              <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Almost</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Freelancer:</strong> <span>Nope</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         <!-- Skills-->
-        <section class="bg-light skills">
-            <div class="container px-4 px-lg-5">
+        <section class="bg-light skills"  id="skills">
+            <div class="container col">
                 <div class="section-title">
                     <h2>Habilidades</h2>
                 </div>
@@ -161,21 +196,23 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>Datazo</h4>
+                            <p class="text-black-50 mb-0">Analisis de informacion y visualizacion mas facil y rapida!</p>
+                            <a class="btn btn-primary" href="proyect1-details.html">Mas informacion</a>
                         </div>
                     </div>
                 </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/BreastCancerAI.png" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-white">Prediciendo cancer de mama</h4>
+                                    <p class="mb-0 text-white-50">Usando imagenes de un data set se logro predecir el cancer de mama usando redes neuronales.</p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
+                                    <a class="btn btn-primary" href="proyect2-details.html">Mas informacion</a>
                                 </div>
                             </div>
                         </div>
@@ -183,14 +220,15 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/rutacorta.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                    <h4 class="text-white">Ruta mas corta</h4>
+                                    <p class="mb-0 text-white-50">Encontrar la ruta mas corta desde una lugar a otro en medellin teniendo en cuenta muchas variables</p>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
+                                    <a class="btn btn-primary" href="proyect3-details.html">Mas informacion</a>
                                 </div>
                             </div>
                         </div>
@@ -252,7 +290,7 @@
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">Envigado, Antioquia</div>
                             </div>
                         </div>
                     </div>
@@ -262,7 +300,7 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><a id="myText" onclick="copytext()">sebastian.sierrav2001@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
@@ -272,15 +310,15 @@
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black-50">+57 305 420 0341</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://twitter.com/sebassierra2001"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-discord"></i></a>
+                    <a class="mx-2" href="https://github.com/sebasDev2001/"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </section>
