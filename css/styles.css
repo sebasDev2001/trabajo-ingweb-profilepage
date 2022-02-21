@@ -11478,6 +11478,14 @@ body {
   width: 120px;
 }
 
+#datazoimg{
+  width: 250px;
+  height: 250px;
+  margin-left: 30%;
+  background-color: black;
+  border-radius: 50px;
+}
+
 #mainNav {
   min-height: 3.5rem;
   background-color: #fff;
